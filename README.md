@@ -17,3 +17,48 @@ Bundan sonra yazacağımız bütün komutların başına \'git\' yazıcaz. Git s
 <br>
 ```git config --global user.email```
 <br>
+# Git Projesi Oluşturma?
+Git projesi oluşturmadan önce bilmemiz gerekli olan bir kaç Terminal ve Git Bash komutlarını öğrenelim. Bulunduğumuz mevcut dizinin tam adresini öğrenmek için aşağıdaki komutu yazmalıyız.
+<br>
+```pwd```
+<br>
+Bulunduğumuz dizindeki dosya ve klasörleri listelemek için:
+<br>
+```ls```
+<br>
+Bulunduğumuz dizindeki dosya ve klasörleri ayrıntılı bir şekilde listelemek için:
+<br>
+```ls -l```
+<br>
+Bulunduğumuz dizindeki gizli dosya ve klasörleri listelemek için:
+<br>
+```ls -a```
+<br>
+Bulunduğumuz dizin ve klasör adresini değiştirmek için bir alt klasör yada dizine geçme komutu:
+<br>
+```cd dizin_ismi_yolu```
+<br>
+Bulunduğumuz dizin ve klasör adresini değiştirmek için bir üst klasör yada dizine geçme komutu:
+<br>
+```cd ..```
+<br>
+Bulunduğumuz dizin ve klasör\'ün altında yeni bir klasör oluşturmak için yada işletim sistemin grafik aryüzünde sağ tıklayıp Yeni Klasör oluştur menüsünden aynı işlemi gerçekleştirebiliriz.
+<br>
+```mkdir klasör_ismi```
+<br>
+Bulunduğumuz dizin ve klasör\'ün altında yeni bir dosya oluşturmak için yada işletim sistemin grafik aryüzünde sağ tıklayıp Yeni Boş Dosya oluşturabiliriz.
+<br>
+```touch dosya_ismi```
+<br>
+Teminali yada Git Bash komut ekranını temizlemek için CTRL+L  yada aşağıdaki komutu yazmamız gerekiyor.
+<br>
+```clear```
+<br>
+Son olarak Terminal ve Git Bash komutlarından sonra Git proje dizini olduğunu belirtmek için aşağıdaki komutu yazıyoruz.
+<br>
+```git init```
+<br>
+Artık yukarıdaki komut ile git projemizi belirtmiş oluyoruz ve .git adında bir gizli dosya oluşmması gerekli bunuda aşağıdaki komut ile görüntüleyebiliriz.
+<br>
+```ls -a```
+<br>
