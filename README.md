@@ -58,7 +58,40 @@ Son olarak Terminal ve Git Bash komutlarından sonra Git proje dizini olduğunu 
 <br>
 ```git init```
 <br>
-Artık yukarıdaki komut ile git projemizi belirtmiş oluyoruz ve .git adında bir gizli dosya oluşmması gerekli bunuda aşağıdaki komut ile görüntüleyebiliriz.
+Artık yukarıdaki komut ile git projemizi belirtmiş oluyoruz ve .git adında bir gizli dosya oluşması gerekli bunuda aşağıdaki komut ile görüntüleyebiliriz.
 <br>
 ```ls -a```
+<br>
+
+# Git Deposuna(Repository) Proje Dosyalarını Ekleme?
+Git Deposu(Repository) proje dosyalarının git tarafından saklandığı yerdir. Dosyaların geçiş alanına(staging area) eklemek için aşağıdaki komutu yazıyoruz.
+<br>
+```git add .```
+<br>
+Nokta yerine dosyaların ismini teker yazabiliriz yada nokta işaret yazarak projedeki tüm dosyaları geçiş alanına ekliyoruz. Bunları geçiş bölgesinden git deposuna eklemek için aşağıdaki komutu Terminal yada Git Bash programında yazıyoruz.
+<br>
+```git commit -m "Mesajımızı yazıyoruz"```
+<br>
+Bu komut'tan sonra git deposuna projemizin bir kopyasını oluşturuyoruz. Aldığımız bu versiyonları listelemek için:
+<br>
+```git log```
+<br>
+bu komut sonunda aldığımız bütün versiyonları listelemesi gerekir.
+# Git Projemizde Yapılan Değişiklikleri Listeleme?
+Git projemizde herhangi bir değişikler varsa listelemek için:
+<br>
+```git status```
+<br>
+eğer projemizde bir değişiklik varsa sırasıyla aşağıdaki komutları sırasıyla Git Bash yada Terminal ortamına yazarak git deposuna projemizi eklenmiş olacaktır?
+aşağıdaki komutu yazıyoruz.
+<br>
+```git add .```
+<br>
+<br>
+```git commit -m "Mesajımızı yazıyoruz"```
+<br>
+<br>
+```git log```
+<br>
+```git status```
 <br>
