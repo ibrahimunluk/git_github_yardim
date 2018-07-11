@@ -77,21 +77,25 @@ Bu komut'tan sonra git deposuna projemizin bir kopyasını oluşturuyoruz. Aldı
 ```git log```
 <br>
 bu komut sonunda aldığımız bütün versiyonları listelemesi gerekir.
-# Git Projemizde Yapılan Değişiklikleri Listeleme?
+# Git Projemizde Yapılan Değişiklikleri Listeleme ve Git Deposuna(Repository) Ekleme?
 Git projemizde herhangi bir değişikler varsa listelemek için:
 <br>
 ```git status```
 <br>
-eğer projemizde bir değişiklik varsa sırasıyla aşağıdaki komutları sırasıyla Git Bash yada Terminal ortamına yazarak git deposuna projemizi eklenmiş olacaktır?
-aşağıdaki komutu yazıyoruz.
+eğer projemizde bir değişiklik varsa aşağıdaki komutları sırasıyla Git Bash yada Terminal ortamına yazarak git deposuna projemizi eklenmiş olacaktır. Bir önceki konuda Git Deposuna(Repository) Ekleme komutlar açıklamıştık.
 <br>
 ```git add .```
 <br>
-<br>
 ```git commit -m "Mesajımızı yazıyoruz"```
-<br>
 <br>
 ```git log```
 <br>
 ```git status```
 <br>
+# Git İş Akışı?
+|  Çalışma Dizini | ==>add==> | Geçiş Bölgesi | ==>commit==> | Git Deposu |
+| --- | --- | --- | --- | --- |
+| (Working Directory) | ==>add==> | (Staging Area) | ==>commit==> | Git Repository |
+                 
+<br>
+ Git'in iş akışını ```git add .``` komutu ile çalışma dizininde bulunan dosya ve klasörleri Geçiş bölgesine ekliyoruz, daha sonra ```git commit -m "Mesajımızı yazıyoruz"``` ikinci işlemi uyguluyarak geçiş bölgesine gönderdiğimiz bu dosya ve klasörlerimizi Git Deposuna göndermiş oluyoruz. Geçiş Bölgesi, bize yaptığımız değişikleri kontrol etme imkanı sağlıyor.
