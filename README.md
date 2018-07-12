@@ -99,3 +99,4 @@ eğer projemizde bir değişiklik varsa aşağıdaki komutları sırasıyla Git 
                  
 <br>
  Git'in iş akışını ```git add .``` komutu ile çalışma dizininde bulunan dosya ve klasörleri Geçiş bölgesine ekliyoruz, daha sonra ```git commit -m "Mesajımızı yazıyoruz"``` ikinci işlemi uyguluyarak geçiş bölgesine gönderdiğimiz bu dosya ve klasörlerimizi Git Deposuna göndermiş oluyoruz. Geçiş Bölgesi, bize yaptığımız değişikleri kontrol etme imkanı sağlıyor.
+ 
