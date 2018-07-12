@@ -103,7 +103,8 @@ eğer projemizde bir değişiklik varsa aşağıdaki komutları sırasıyla Git 
  komutu ile çalışma dizininde bulunan dosya ve klasörleri Geçiş bölgesine ekliyoruz, daha sonra 
  ```git commit -m "Mesajımızı yazıyoruz"``` 
  ikinci işlemi uyguluyarak geçiş bölgesine gönderdiğimiz bu dosya ve klasörlerimizi Git Deposuna göndermiş oluyoruz. Geçiş Bölgesi, bize yaptığımız değişikleri kontrol etme imkanı sağlıyor.
- # Git Değişiklik(diff) yapma?
+
+# Git Değişiklik(diff) yapma?
  Yapılan değişikliklerden sonra
  <br>
 ```git status```
