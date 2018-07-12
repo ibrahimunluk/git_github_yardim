@@ -98,5 +98,43 @@ eğer projemizde bir değişiklik varsa aşağıdaki komutları sırasıyla Git 
 | (Working Directory) | ==>add==> | (Staging Area) | ==>commit==> | Git Repository |
                  
 <br>
- Git'in iş akışını ```git add .``` komutu ile çalışma dizininde bulunan dosya ve klasörleri Geçiş bölgesine ekliyoruz, daha sonra ```git commit -m "Mesajımızı yazıyoruz"``` ikinci işlemi uyguluyarak geçiş bölgesine gönderdiğimiz bu dosya ve klasörlerimizi Git Deposuna göndermiş oluyoruz. Geçiş Bölgesi, bize yaptığımız değişikleri kontrol etme imkanı sağlıyor.
- 
+ Git'in iş akışını 
+ ```git add .``` 
+ komutu ile çalışma dizininde bulunan dosya ve klasörleri Geçiş bölgesine ekliyoruz, daha sonra 
+ ```git commit -m "Mesajımızı yazıyoruz"``` 
+ ikinci işlemi uyguluyarak geçiş bölgesine gönderdiğimiz bu dosya ve klasörlerimizi Git Deposuna göndermiş oluyoruz. Geçiş Bölgesi, bize yaptığımız değişikleri kontrol etme imkanı sağlıyor.
+ # Git Değişiklik(diff) yapma?
+ Yapılan değişikliklerden sonra
+ <br>
+```git status```
+<br>
+komutu ile değişikliğin yapıldığını görüntüleriz. Bu sorgulamanın sonucunda aynı zamanda hangi komutları uygulayabileceğimiz git sistemi bize görüntülüyor. Satır satır yapılan değişikleri görüntülüyoruz. Kırmızı renkteki satırları sildiğimiz, yeşil renkte gösterilen satırlar değiştirilmiş olan satırlardır.
+ <br>
+```git diff```
+<br>
+eğer projemizde bir değişiklik varsa aşağıdaki komutları sırasıyla Git Bash yada Terminal ortamına yazarak git deposuna projemizi eklenmiş olacaktır. Bir önceki konuda Git Deposuna(Repository) Ekleme komutlar açıklamıştık.
+<br>
+```git add .```
+<br>
+```git commit -m "Mesajımızı yazıyoruz"```
+<br>
+```git log```
+<br>
+```git status```
+<br>
+```git diff```
+<br>
+En son komuttan sonra herhangi bir değişiklik olmadığını komut ekranında yazacaktır. Yapılan değişiklerden sonra:
+<br>
+```git add .```
+<br>
+```git diff```
+<br>
+Komutları yazılırsa yine bir değişiklik olmadığını komut ekranında yazacktır. Ancak burda Çalışma dizini(Working Directory) ile Geçiş Bölgesini(Staging Area) karşılaştırmasını yapıyor. Eğer Geçiş Bölgesi(Staging Area) ile Git Deposu(Git Repository) arasındaki değişikliği görmek istiyorsak:
+<br>
+```git diff --staged```
+<br>
+Bundan sonra Git Deposuna(Git Repository) yapılan değişikleri kaydetmek için, aşağıdaki komutu yazıyoruz.
+<br>
+```git commit -m "Mesajımızı yazıyoruz"```
+<br>
