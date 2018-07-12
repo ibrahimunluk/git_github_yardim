@@ -139,4 +139,31 @@ Bundan sonra Git Deposuna(Git Repository) yapılan değişikleri kaydetmek için
 <br>
 ```git commit -m "Mesajımızı yazıyoruz"```
 <br>
-
+# Git Projesindeki Dosyayı Silmek?
+Dosya silmek için iki yöntem var. Birinci yöntem direkt İşletim sisteminin grafik rayüzünde dosyanın üzerinde sağ tıklayarak elle silmek ikinci olarakta Git Bash komutu ile silebiliriz. Elle dosyayı sildikten sonra silme geçiş bölgesine kaydetmek için iki komut var.
+<br>
+```git add .```
+<br>
+yada:
+<br>
+```git rm dosya_ismi.dosya_uzantısı```
+<br>
+Bundan sonra geçiş bölgesinden, git deposuna commit etmek için:
+<br>
+```git commit -m "Mesajımızı yazıyoruz"```
+<br>
+İkinci olarak ilk başta dosyayı silip geçiş bölgesine kaydetmek için aşağıdaki komutu çalıştırıyoruz:
+<br>
+```git rm dosya_ismi.dosya_uzantısı```
+<br>
+<br>
+Bundan sonra geçiş bölgesinden, git deposuna commit etmek için:
+<br>
+```git commit -m "Mesajımızı yazıyoruz"```
+<br>
+En son iletilmiş olan projenin  durmunu ve iletilip iletilmeğini görmek için:
+<br>
+```git log```
+<br>
+```git status```
+<br>
