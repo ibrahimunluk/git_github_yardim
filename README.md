@@ -167,3 +167,11 @@ En son iletilmiş olan projenin  durmunu ve iletilip iletilmeğini görmek için
 <br>
 ```git status```
 <br>
+Klasörle ve altındaki kayıtlı dosyaları silmek için, aşağıdaki komutları yazıyoruz. Burada dosya silmeden farklı olarak -r parametresi var. Bunun anlamı rekürsif olarak klasör altındaki bütün dosya ve klasörlerin hepsini siler:
+<br>
+```git rm -r Klasör_ismi```
+<br>
+Bundan sonra git projemizi son haliyle geçiş bölgesinden, git deposuna commit etmek için:
+<br>
+```git commit -m "Mesajımızı yazıyoruz"```
+<br>
