@@ -140,7 +140,7 @@ Bundan sonra Git Deposuna(Git Repository) yapılan değişikleri kaydetmek için
 ```git commit -m "Mesajımızı yazıyoruz"```
 <br>
 # Git Projesindeki Dosyayı Silmek?
-## Birinci Silme Yöntemi:
+## 1-Birinci Silme Yöntemi:
 Dosya silmek için iki yöntem var. Birinci yöntem direkt İşletim sisteminin grafik rayüzünde dosyanın üzerinde sağ tıklayarak elle silmek ikinci olarakta Git Bash komutu ile silebiliriz. Elle dosyayı sildikten sonra silme geçiş bölgesine kaydetmek için iki komut var.
 <br>
 ```git add .```
@@ -153,7 +153,7 @@ Bundan sonra geçiş bölgesinden, git deposuna commit etmek için:
 <br>
 ```git commit -m "Mesajımızı yazıyoruz"```
 <br>
-## İkinci Silme Yöntemi:
+## 2-İkinci Silme Yöntemi:
 İkinci olarak ilk başta dosyayı silip geçiş bölgesine kaydetmek için aşağıdaki komutu çalıştırıyoruz:
 <br>
 ```git rm dosya_ismi.dosya_uzantısı```
@@ -169,7 +169,7 @@ En son iletilmiş olan projenin  durmunu ve iletilip iletilmeğini görmek için
 <br>
 ```git status```
 <br>
-## Klasör olarak Silme Yöntemi:
+## 3-Klasör olarak Silme Yöntemi:
 Klasörle ve altındaki kayıtlı dosyaları silmek için, aşağıdaki komutları yazıyoruz. Burada dosya silmeden farklı olarak -r parametresi var. Bunun anlamı rekürsif olarak klasör altındaki bütün dosya ve klasörlerin hepsini siler:
 <br>
 ```git rm -r Klasör_ismi```
