@@ -175,3 +175,35 @@ Bundan sonra git projemizi son haliyle geçiş bölgesinden, git deposuna commit
 <br>
 ```git commit -m "Mesajımızı yazıyoruz"```
 <br>
+# Git Projesinde Hataları ve Değişiklikleri Geri Alma?
+## 1-Çalışma Dizini
+Eğer yaptığımız hata yada geri alacağımız değişiklikler çalışma klasörü içerisinde ise geri getirmek için:
+<br>
+```git status```
+<br>
+bu komutu yazdığımızda bize değişikleri geri almak için bize aşağıdaki komutu yazmamız gerektiğini komut ekranında yazacaktır.
+<br>
+```git checkout -- dosyanın_ismi.uzantısı```
+<br>
+## 2-Geçiş Bölgesinde
+<br>
+```git add .```
+<br>
+Komutu ile geçiş bölseine gönderdiğimiz değişikleri geri almak için:
+<br>
+```git status```
+<br>
+bu komutu yazdığımızda bize değişikleri geri almak için bize aşağıdaki komutu yazmamız gerektiğini komut ekranında yazacaktır.
+<br>
+```git reset HEAD dosyanın_ismi.uzantısı```
+<br>
+Bu sefer çalışma dizinindende yaptığımız değişikleri geri almamız gerkir bunun için:
+<br>
+```git checkout -- dosyanın_ismi.uzantısı```
+<br>
+Değişikliklerin geri alınıp alınmadığını görmek için aşağıdaki komutu kullanabiliriz:
+<br>
+```git status```
+<br>
+
+
