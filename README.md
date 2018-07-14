@@ -213,7 +213,12 @@ Değişikliklerin geri alınıp alınmadığını görmek için aşağıdaki kom
 <br>
 ```git log```
 <br>
-komutu ile ekranda daha önce commit ettiğimiz git projemizin versiyonları ve bilgileri gözükecektir. Bu versiyon bilgileri içerisinde turuncu renkte gözüken hash kodu var. Bu hash kodu benzersiz olduğu için git projesinin versiyon değişikliğinde kullanılacaktır. İsterseniz hash kodunun ilk 7 karekterini kullanabiliriz. Aşağıdaki komut ile herhangi bir versiyona dönülmesini sağlar.
+komutu ile ekranda daha önce commit ettiğimiz git projemizin versiyonları ve bilgileri gözükecektir. Bu versiyon bilgileri içerisinde turuncu renkte gözüken hash kodu var. Bu hash kodu benzersiz olduğu için git projesinin versiyon değişikliğinde kullanılacaktır. İsterseniz hash kodunun ilk 7 karekterini kullanabiliriz. Aşağıdaki komut ile herhangi bir versiyondaki dosyanın o versiyondaki son haline dönülmesini sağlar.
 <br>
-```git checkout hash_kodu```
+```git checkout hash_kodu -- dosya_ismi.dosyanın_uzantısı```
 <br>
+Eğer bu versiyondaki tüm dosyaların son haline dönülmesi isteniyorsa, dosya ismi yerine nokta ifadesi kullanılmalı.
+<br>
+```git checkout hash_kodu -- .```
+<br>
+K
