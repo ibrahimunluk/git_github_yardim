@@ -221,4 +221,3 @@ Eğer bu versiyondaki tüm dosyaların son haline dönülmesi isteniyorsa, dosya
 <br>
 ```git checkout hash_kodu -- .```
 <br>
-K
