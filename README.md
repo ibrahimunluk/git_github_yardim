@@ -190,10 +190,11 @@ bu komutu yazdığımızda bize değişikleri geri almak için bize aşağıdaki
 ```git checkout -- dosyanın_ismi.uzantısı```
 <br>
 ### 2-Geçiş Bölgesinde:
+Aşağıdaki add komutu ile geçiş bölseine gönderdiğimiz değişikleri:
 <br>
 ```git add .```
 <br>
-Komutu ile geçiş bölseine gönderdiğimiz değişikleri geri almak için:
+status komutunu yapılan değişikleri görüntülemeye yarar:
 <br>
 ```git status```
 <br>
@@ -210,10 +211,11 @@ Değişikliklerin geri alınıp alınmadığını görmek için aşağıdaki kom
 ```git status```
 <br>
 ## Git Versiyon Değiştirme?
+Git log komutu ile ekranda daha önce commit ettiğimiz git projemizin versiyonları ve bilgileri gözükecektir.
 <br>
 ```git log```
 <br>
-komutu ile ekranda daha önce commit ettiğimiz git projemizin versiyonları ve bilgileri gözükecektir. Bu versiyon bilgileri içerisinde turuncu renkte gözüken hash kodu var. Bu hash kodu benzersiz olduğu için git projesinin versiyon değişikliğinde kullanılacaktır. İsterseniz hash kodunun ilk 7 karekterini kullanabiliriz. Aşağıdaki komut ile herhangi bir versiyondaki dosyanın o versiyondaki son haline dönülmesini sağlar.
+ Bu versiyon bilgileri içerisinde turuncu renkte gözüken hash kodu var. Bu hash kodu benzersiz olduğu için git projesinin versiyon değişikliğinde kullanılacaktır. İsterseniz hash kodunun ilk 7 karekterini kullanabiliriz. Aşağıdaki komut ile herhangi bir versiyondaki dosyanın o versiyondaki son haline dönülmesini sağlar.
 <br>
 ```git checkout hash_kodu -- dosya_ismi.dosyanın_uzantısı```
 <br>
