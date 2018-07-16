@@ -226,4 +226,4 @@ Eğer bu versiyondaki tüm dosyaların son haline dönülmesi isteniyorsa, dosya
 
 # B-Github 
 ## Github Nedir?
-Git yazılımı ile enterge olmuş bir depolama alanıdır. Git projelerinizi internet ortamında, uzak bir bilgisayarda saklayıp ve yönetebilecemiğimiz bir yerdir. Github gibi birçok depolama sistemi vardır. Örneğin GitLab, Bitbucket, Coding, assembla, beanstalkapp, cloudforge, Git yazılımı ile enterge olmuş bir depolama alanıdır. Git projelerinizi internet ortamında, uzak bir bilgisayarda saklayıp ve yönetebilecemiğimiz bir yerdir. Github gibi birçok depolama sistemi vardır. Örneğin GitLab, Bitbucket, Coding, assembla, beanstalkapp, cloudforge, perforce,
+Git yazılımı ile enterge olmuş bir depolama alanıdır. Git projelerinizi internet ortamında, uzak bir bilgisayarda saklayıp ve yönetebilecemiğimiz bir yerdir. Github gibi birçok depolama sistemi vardır. Örneğin GitLab, Bitbucket, Coding, assembla, beanstalkapp, cloudforge, perforce, code google,
