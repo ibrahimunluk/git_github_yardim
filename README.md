@@ -226,6 +226,10 @@ Eğer bu versiyondaki tüm dosyaların son haline dönülmesi isteniyorsa, dosya
 
 # B-Github 
 ## Github Nedir?
-Git yazılımı ile enterge olmuş bir depolama alanıdır. Git projelerinizi internet ortamında, uzak bir bilgisayarda saklayıp ve yönetebilecemiğimiz bir yerdir. Github gibi birçok depolama sistemi vardır. Örneğin GitLab, Bitbucket, Coding, assembla, beanstalkapp, cloudforge, perforce, code google, v.b.
+Git yazılımı ile enterge olmuş bir depolama alanıdır. Git projelerinizi internet ortamında, uzak bir bilgisayarda saklayıp ve yönetebilecemiğimiz bir yerdir. Github gibi birçok depolama sistemi vardır. Örneğin GitLab, Bitbucket, Coding, assembla, beanstalkapp, cloudforge, perforce, code google, v.b. Git projelerinizi Github web sistemi üzerinde herkese açık(public) olarak kaydederseniz, Dünyadaki herkesin sizin projenezi inceleme olanağı sunmuş oluyorsunuz. Aynı zamanda sizde başka birilerinin yaptığı public projeleri inceleme olanağı sunuyor. Yazaılımda kendidini geliştirmek
 ## Githuba Giriş?
-Github üzerinde depolama işlemi yapmak için ilk önce üye olmanız gerekir. Üye olduktan sonra Anasayfada yada başka bir alanda Create Repository menüsünden git projemiz için depolama alanı oluşturuyoruz.  
+Github\'ı kullanmak ve üzerinde depolama işlemi yapmak için ilk önce üye olmanız gerekir. Üye olduktan sonra Anasayfada yada başka bir alanda New Repository menüsünden git projemiz için depolama alanı oluşturuyoruz. Repository name alanına projemizin ismini kelimeler arasında boşluk olmadan yazıyoruz. Public seçeneği ile projemizi herkese açık olarak sunuyoruz. Private seçeneği ile projrmizi gizli olarak depoluyoruz. Ancak Private seçeneği ücretli olmasına rağmen öğrenciler için ücretsiz olarak birkaç projeyi oluşturulmasına izin veriyor. İnitalize this repository with README seçeneğini seçersek depolama alanına readme dosyasını yada bunu sonradanda ekleyebiliriz. son olarak Create Repository butonuna tıklayarak depolama alanını oluşturmuş olucaz.
+## Git Bash Üzerinde Github\'a Git Projemizi Gönderme(push)?
+İlk önce Git Bash komut arayüzünde çalışma klasörüne geçiş yapıyoruz
+
+
