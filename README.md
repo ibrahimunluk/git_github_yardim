@@ -235,7 +235,7 @@ Github\'ı kullanmak ve üzerinde depolama işlemi yapmak için ilk önce üye o
 
 
 
-
+```
 
  _ _               _     _             _           _ _ _   _   _       _ _   _ _    
 (_) |             | |   (_)           | |         | (_) | (_) (_)     | (_) (_) |   
@@ -245,3 +245,4 @@ Github\'ı kullanmak ve üzerinde depolama işlemi yapmak için ilk önce üye o
 |_|_.__/|_|  \__,_|_| |_|_|_| |_| |_| |_| |_|\__,_|_|_|_|  \__,_|_| |_|_|\__,_|_|\_\
                                                                                     
                                                                                     
+```
